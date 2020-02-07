@@ -2,19 +2,22 @@
 
 Hichat 是一个，它深受 [微信网页版](https://wx.qq.com) 影响，它是用 nodejs socket.io jade 等技术实现的。
 
-作者: [张晓东](https://github.com/healen/hichat)
-
 ## 安装
+建议使用 nodejs 版本 <= 6.11.2
 
-- git clone https://github.com/healen/hichat.git
-- cd hichat
-- npm install
+```
+git clone https://github.com/healen/hichat.git
+cd hichat
+npm install
+```
+## 启动
 
-##启动
-- node app
-- 监听3000端口
+```
+node app #监听3000端口
+```
 
-##需要技术
+## 需要技术
+
 - [nodejs](https://nodejs.org)
 - [jade](https://github.com/pugjs/jade)
 - [socket.io](http://socket.io/)
